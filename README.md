@@ -25,8 +25,10 @@ $ python3 manage.py runserver
 ```
 
 ## Contributors
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
+- <a href="https://github.com/VanshikaNehra23">Vanshika Nehra</a>
+- <a href="https://github.com/<Contributor>">Mrinal Agarwal</a>
+- <a href="https://github.com/<Contributor>">Yash Srivastava</a>
+
 
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
