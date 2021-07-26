@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <h1>Live streaming</h1>
+    <div>
+        <img src="{{ url_for('video') }}" width="50%"/>
+    </div>
+    <form action='/predict' method='post'>
+    <button type="submit" name="start" value="start" >Start</button>
+    <br>
+        <p>Result is: {{ pred }}</p>
+    <br>
+  </form>
+  
+  </body>
+</html>
