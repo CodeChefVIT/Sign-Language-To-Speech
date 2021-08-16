@@ -1,15 +1,23 @@
 <html>
+  <head>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/style.css') }}>
+  </head>
   <body>
-    <h1>Live streaming</h1>
-    <div>
-        <img src="{{ url_for('video') }}" width="50%"/>
+    <h2 class="header">Sign Language to Speech Converter</h2>
+    <div class="video">
+        <img src="{{ url_for('video') }}" width="50%">
     </div>
+    <div class="container">
     <form action='/predict' method='post'>
-    <button type="submit" name="start" value="start" >Start</button>
-    <br>
-        <p>Result is: {{ pred }}</p>
-    <br>
+    <button type="submit" name="start" value="start" class="button1" >Start</button>
   </form>
+  <form action='/stop' method='post'>
+    <button type="submit" name="stop" value="stop" class="button2" >Stop</button>
+  </form>
+  </div>
+  <div class="result">   
+    <p>Result is: {{ pred }}</p>
+</div>
   
   </body>
 </html>
